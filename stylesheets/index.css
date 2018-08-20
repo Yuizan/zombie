@@ -1,0 +1,56 @@
+:root{
+    --fontColor: #fff;
+    --headerHeight: 2.5rem;
+
+}
+
+body{
+    position: relative;
+    width: 900px;
+    margin: 40px auto;
+    background-color: #464f53;
+}
+
+td{
+    border: 5px solid #6ebf56;
+    background-color: #464f53;
+    height: 70px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+    color: var(--fontColor);;
+}
+
+header p{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--fontColor);
+    float: left;
+}
+
+.resultContent{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+}
+
+.pathContent{
+    width: 100%;
+    height: 70px;
+}
+
+.pathContent p{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+}
+
+#paths li{
+    width: 55px;
+    float: left;
+}
+.zombie{
+    color: #6ebf56;
+}
